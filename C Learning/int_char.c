@@ -24,8 +24,13 @@ int main()
     // printf("%f %lf\n ", f, d);
     // return 0;
 
-    int ch;
-    printf("Please Enter Your Name :\n ");
-    scanf("%c", &ch);
-    printf("Your name is %c", ch);
+    // int ch;
+    // printf("Please Enter Your Name :\n ");
+    // scanf("%c", &ch);
+    // printf("Your name is %c", ch);
+
+    float x, y, z;
+    scanf("%f %f", &x, &y);
+    z = x + y;
+    printf("%f  %f = %f", x, y, z);
 }
