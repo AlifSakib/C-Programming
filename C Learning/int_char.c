@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+
+    // int x ,y  ,z;
+    // printf("Enter the value of x and then y\n");
+    // scanf("%d%d" , &x , &y);
+    // // printf("Enter the value of y\n");
+    // // scanf("%d" , &y);
+    // z = x + y;
+    // printf("The value of %d + %d equals %d\n" , x , y, z);
+    // return 0;
+
+    // int ch;
+    // printf("Enter a character\n");
+    // scanf("%c" , &ch);
+    // printf("The character you entered is:  %c ", ch);
+    // return 0;
+
+    // float f;
+    // double d;
+    // scanf("%f %lf", &f, &d);
+    // printf("%f %lf\n ", f, d);
+    // return 0;
+
+    int ch;
+    printf("Please Enter Your Name :\n ");
+    scanf("%c", &ch);
+    printf("Your name is %c", ch);
+}
