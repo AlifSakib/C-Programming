@@ -18,7 +18,7 @@ int main()
     // printf("The character you entered is:  %c ", ch);
     // return 0;
 
-    // float f;
+    // float f;6
     // double d;
     // scanf("%f %lf", &f, &d);
     // printf("%f %lf\n ", f, d);
@@ -29,8 +29,12 @@ int main()
     // scanf("%c", &ch);
     // printf("Your name is %c", ch);
 
-    float x, y, z;
-    scanf("%f %f", &x, &y);
-    z = x + y;
-    printf("%f  %f = %f", x, y, z);
+    // float x, y, z;
+    // scanf("%f %f", &x, &y);
+    // z = x + y;
+    // printf("%f  %f = %f", x, y, z);
+
+    double x;
+    scanf("%lf", &x);
+    printf("Your Lucky Number is %.2lf", x);
 }
