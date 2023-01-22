@@ -37,9 +37,24 @@ int main()
     // double x;
     // scanf("%lf", &x);
     // printf("Your Lucky Number is %.2lf", x);
-    int x = 5;
-    if (x >= 0)
+    // int x = -5;
+    // if (x >= 0)
+    // {
+    //     printf("X is Positive");
+    // }
+    // else
+    // {
+    //     printf("X is negetive");
+    // }
+    // return 0;
+
+    char chr;
+    scanf("%c", &chr);
+    if (chr == 'a' || 'e' || 'i' || 'o' || 'u')
+        ;
     {
-        printf("X is Positive");
-    }
+        printf("Vowel\n");
+    };
+
+    return 0;
 }
