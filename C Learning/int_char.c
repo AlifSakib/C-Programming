@@ -34,7 +34,12 @@ int main()
     // z = x + y;
     // printf("%f  %f = %f", x, y, z);
 
-    double x;
-    scanf("%lf", &x);
-    printf("Your Lucky Number is %.2lf", x);
+    // double x;
+    // scanf("%lf", &x);
+    // printf("Your Lucky Number is %.2lf", x);
+    int x = 5;
+    if (x >= 0)
+    {
+        printf("X is Positive");
+    }
 }
