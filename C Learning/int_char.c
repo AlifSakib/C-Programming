@@ -50,11 +50,14 @@ int main()
 
     char chr;
     scanf("%c", &chr);
-    if (chr == 'a' || 'e' || 'i' || 'o' || 'u')
-        ;
+    if (chr == 'a' || chr == 'e' || chr == 'i' || chr == 'o' || chr == 'u')
     {
         printf("Vowel\n");
-    };
+    }
+    else
+    {
+        printf("Consonent");
+    }
 
     return 0;
 }
