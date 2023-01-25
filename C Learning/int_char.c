@@ -48,15 +48,29 @@ int main()
     // }
     // return 0;
 
-    char chr;
-    scanf("%c", &chr);
-    if (chr == 'a' || chr == 'e' || chr == 'i' || chr == 'o' || chr == 'u')
+    // char chr;
+    // scanf("%c", &chr);
+    // if (chr >= '0' && chr <= '9')
+    // {
+    //     printf("number\n");
+    // }
+    // else
+    // {
+    //     printf("word");
+    // }
+
+    // return 0;
+
+    int n;
+
+    scanf("%d", &n);
+    if (n > 10)
     {
-        printf("Vowel\n");
+        printf("%d is greater theb 10\n", n);
     }
-    else
+    if (n > 5)
     {
-        printf("Consonent");
+        printf("%d is greater then 5\n", n);
     }
 
     return 0;
